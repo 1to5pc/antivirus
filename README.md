@@ -1,3 +1,3 @@
 # Anti-Virus
 A try at a dummy antivirus. !!NOT A REAL ANTIVIRUS!!
-Open Source Software [^1]
+[^1] [^1]:Open Source Software
