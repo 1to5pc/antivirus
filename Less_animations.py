@@ -1,7 +1,7 @@
 import itertools
 import os
 import threading
-import time
+
 import sys
 Permission = "y"
 guess = ""
@@ -42,8 +42,6 @@ else:
     print("Permission was given!")
     print("The Application Will Now Continue")
 
-    import time
-
     time.sleep(1.4)
     print("Establishing Secure Connection To Database")
 
@@ -61,15 +59,10 @@ else:
     else:
         print(q7)
 
-    import time
-
     time.sleep(1.4)
     print("Succesfully connected to databases")
-        
-    time.sleep(1.4)
+    time.sleep(0.7)
     print("Updating Databases")
-
-    import time
 
     time.sleep(1.0)
     print("Locating assets")
@@ -80,7 +73,6 @@ else:
 
     import itertools
     import threading
-    import time
     import sys
 
     done = False
@@ -93,7 +85,7 @@ else:
                 break
             sys.stdout.write(c)
             sys.stdout.flush()
-            time.sleep(0.5)
+            time.sleep(0.01)
 
     t = threading.Thread(target=animate)
     t.start()
@@ -106,43 +98,26 @@ if out_of_guesses:
     screen_clear
 else:
 
-    import time
-
     time.sleep(0.1)
     print("")
     print("Updating Application")
-
-    import time
-
     time.sleep(0.1)
     print("This Proccess Will Take About 5-10sec")
-
-    import time
 
     time.sleep(0.1)
     print("Updating Application Modules")
 
-    import time
-
     time.sleep(2.0)
     print("Application Modules Are Updated")
-
-    import time
 
     time.sleep(0.1)
     print("Updating Application Files And Folders")
 
-    import time
-
     time.sleep(1.1)
     print("Application File And Folders Are Updated")
 
-    import time
-
     time.sleep(0.1)
     print("Upgrading Database To Version ", database_ver)
-
-    import time
 
     time.sleep(3.0)
     print(
@@ -152,8 +127,6 @@ else:
 if out_of_guesses:
     screen_clear
 else:
-
-    
 
     done = False
     '|', '/', '-', '\\'
@@ -180,7 +153,6 @@ if out_of_guesses:
     screen_clear
 else:
 
-    import time
     print("")
     time.sleep(2.4)
     print("")
@@ -191,7 +163,6 @@ else:
 
     import itertools
     import threading
-    import time
     import sys
 
     done = False
@@ -217,7 +188,6 @@ ab = input("Would you like to see the log? [y] or [n]: ")
 print("(C)2021 - 1to5PC (Log Version 5.3.2)")
 if ab == 'y':
 
-    import time
     time.sleep(0.1)
     print("")
     time.sleep(0.1)
