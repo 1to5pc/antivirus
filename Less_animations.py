@@ -93,7 +93,7 @@ else:
                 break
             sys.stdout.write(c)
             sys.stdout.flush()
-            time.sleep(0.1)
+            time.sleep(0.5)
 
     t = threading.Thread(target=animate)
     t.start()
