@@ -12,8 +12,8 @@ screen_clear = False
 import random
 m = random.randint(5,22)
 num = random.randint(1,5)
-database_versiob = m/10
-round(database_versiob)
+database_version = m/10
+database_ver = round(database_versionb)
 n = random.randint(0,7)
 r = random.random()
 q1 = "com.root.s5"
@@ -139,14 +139,14 @@ else:
     import time
 
     time.sleep(0.1)
-    print("Upgrading Database To Version ", database_versiob)
+    print("Upgrading Database To Version ", database_ver)
 
     import time
 
     time.sleep(3.0)
     print(
         "Application Is Successfully Updated. App version: ", r)
-    print("Database version: ", database_versiob)
+    print("Database version: ", database_ver)
 
 if out_of_guesses:
     screen_clear
